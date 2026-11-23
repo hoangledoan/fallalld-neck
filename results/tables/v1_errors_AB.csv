@@ -1,0 +1,33 @@
+ActivityID,label,n,n_det,n_fa,recs_with_fa,missed,description,rule
+15,NEAR_FALL,43,0,1,1,0,fail to stand up from a sofa/chair (after half standing),sens98
+16,ADL,84,0,2,2,0,lying down on a bed,sens98
+17,ADL,86,0,3,3,0,changing position (turning) in the bed,sens98
+25,ADL,30,0,1,1,0,jogging quickly,sens98
+28,ADL,54,0,2,2,0,bending down (e.g. to pick something up from floor) and then raising u,sens98
+43,ADL,31,0,1,1,0,start jogging,sens98
+102,FALL,21,20,0,0,1,"fall while walking, stumbling/tripping, forward, with recovery",sens98
+108,FALL,36,35,0,0,1,"fall while walking, slipping, backward, with recovery",sens98
+115,FALL,11,10,0,0,1,"fall attempting to sit/lie down, losing balance, forward",sens98
+121,FALL,22,21,0,0,1,"fall while jogging, stumbling/tripping, forward",sens98
+122,FALL,17,16,0,0,1,"fall while jogging, stumbling/tripping, forward, with recovery",sens98
+124,FALL,22,21,0,0,1,"fall while jogging, slipping, forward, with recovery",sens98
+127,FALL,41,39,0,0,2,"fall from bed while lying, changing position/rotating, lateral",sens98
+130,FALL,11,10,0,0,1,"fall from chair, fainting/syncope, backward",sens98
+135,FALL,20,13,0,0,7,"fall from standing still, fainting/syncope, vertical, sliding down a w",sens98
+14,ADL,170,0,2,2,0,standing up,sens99
+15,NEAR_FALL,43,0,2,2,0,fail to stand up from a sofa/chair (after half standing),sens99
+16,ADL,84,0,3,3,0,lying down on a bed,sens99
+17,ADL,86,0,6,6,0,changing position (turning) in the bed,sens99
+22,ADL,36,0,1,1,0,walking quickly,sens99
+23,NEAR_FALL,31,0,2,2,0,stumbling while walking without falling,sens99
+24,ADL,30,0,2,2,0,jogging slowly,sens99
+25,ADL,30,0,3,3,0,jogging quickly,sens99
+27,ADL,53,0,1,1,0,jumping strongly,sens99
+28,ADL,54,0,3,3,0,bending down (e.g. to pick something up from floor) and then raising u,sens99
+43,ADL,31,0,1,1,0,start jogging,sens99
+44,ADL,29,0,3,3,0,stop jogging,sens99
+102,FALL,21,20,0,0,1,"fall while walking, stumbling/tripping, forward, with recovery",sens99
+122,FALL,17,16,0,0,1,"fall while jogging, stumbling/tripping, forward, with recovery",sens99
+127,FALL,41,40,0,0,1,"fall from bed while lying, changing position/rotating, lateral",sens99
+130,FALL,11,10,0,0,1,"fall from chair, fainting/syncope, backward",sens99
+135,FALL,20,17,0,0,3,"fall from standing still, fainting/syncope, vertical, sliding down a w",sens99

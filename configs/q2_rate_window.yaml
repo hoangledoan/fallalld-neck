@@ -1,0 +1,7 @@
+# Q2: sample rate x window length for the chosen setup (M1 LightGBM, accel + pressure)
+trees:
+  odr: [60, 120]
+  window_s: [2, 3, 4, 6]
+  sensors: ["A+B"]
+  models: ["M1lgbm"]
+nn: {odr: [], window_s: [], sensors: [], models: [], seeds: []}

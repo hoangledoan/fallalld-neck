@@ -1,0 +1,25 @@
+  M1lgbm A+B 60Hz 4s: 210s
+  M1lgbm A+B 60Hz 4s: 182s
+  M1lgbm A+B 60Hz 4s: 196s
+  M1lgbm A+B 60Hz 4s: 198s
+  M1lgbm A+B 60Hz 4s: 352s
+  M1lgbm A+B 60Hz 4s: 351s
+  M1lgbm A+B 60Hz 4s: 266s
+  M1lgbm A+B 60Hz 4s: 271s
+         variant   rule  sens  fa_per_h  fah_lo  fah_hi  n_fa  w_prauc
+       axis_orig sens98 0.982     4.422   0.421  11.896    41    0.930
+       axis_orig sens99 0.996     7.226   1.873  16.588    67    0.930
+        axis_rot sens98 0.977    18.011  12.862  24.159   167    0.799
+        axis_rot sens99 0.990    23.943  17.769  30.551   222    0.799
+axis_rotaug_orig sens98 0.981     3.020   1.177   5.831    28    0.961
+axis_rotaug_orig sens99 0.995     4.638   2.452   7.492    43    0.961
+ axis_rotaug_rot sens98 0.980     7.765   5.652  10.011    72    0.929
+ axis_rotaug_rot sens99 0.988    10.893   8.453  13.446   101    0.929
+   inv_axis_orig sens98 0.975     2.481   0.000   7.013    23    0.980
+   inv_axis_orig sens99 0.989     4.314   0.540  10.987    40    0.980
+    inv_axis_rot sens98 0.974     3.128   0.654   7.196    29    0.973
+    inv_axis_rot sens99 0.993     8.089   4.109  13.849    75    0.973
+        inv_orig sens98 0.982     1.510   0.326   3.381    14    0.988
+        inv_orig sens99 0.995     2.588   0.879   4.894    24    0.988
+         inv_rot sens98 0.982     1.510   0.326   3.381    14    0.988
+         inv_rot sens99 0.995     2.588   0.879   4.894    24    0.988

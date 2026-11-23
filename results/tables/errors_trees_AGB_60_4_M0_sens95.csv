@@ -1,0 +1,68 @@
+ActivityID,label,n,n_det,n_fa,recs_with_fa,missed,description
+13,ADL,171,0,4,4,0,sitting down
+14,ADL,170,0,1,1,0,standing up
+15,NEAR_FALL,43,0,1,1,0,fail to stand up from a sofa/chair (after half standing)
+16,ADL,84,0,5,5,0,lying down on a bed
+17,ADL,86,0,1,1,0,changing position (turning) in the bed
+18,ADL,86,0,0,0,0,rising up from a bed
+19,ADL,60,0,0,0,0,start walking
+20,ADL,64,0,0,0,0,walking slowly or in moderate speed
+21,ADL,65,0,0,0,0,stop walking
+22,ADL,36,0,1,1,0,walking quickly
+23,NEAR_FALL,31,0,7,7,0,stumbling while walking without falling
+24,ADL,30,0,2,2,0,jogging slowly
+25,ADL,30,0,5,5,0,jogging quickly
+26,ADL,54,0,3,3,0,jumping slightly
+27,ADL,53,0,5,5,0,jumping strongly
+28,ADL,54,0,3,3,0,bending down (e.g. to pick something up from floor) and then raising u
+29,ADL,27,0,0,0,0,start going upstairs
+30,ADL,27,0,0,0,0,going upstairs
+31,ADL,27,0,0,0,0,stop going upstairs
+32,ADL,27,0,0,0,0,start going downstairs
+33,ADL,27,0,0,0,0,going downstairs
+34,ADL,27,0,0,0,0,stop going downstairs
+35,ADL,27,0,1,1,0,going upstairs quickly
+36,ADL,25,0,1,1,0,going downstairs quickly
+37,ADL,27,0,0,0,0,start ascending using a lift
+38,ADL,27,0,0,0,0,stop ascending using a lift
+39,ADL,27,0,0,0,0,start descending using a lift
+40,ADL,27,0,0,0,0,stop descending using a lift
+41,ADL,31,0,0,0,0,standing in a moving bus/metro
+42,ADL,29,0,0,0,0,sitting in a moving bus/metro
+43,ADL,31,0,1,1,0,start jogging
+44,ADL,29,0,1,1,0,stop jogging
+101,FALL,22,21,0,0,1,"fall while walking, stumbling/tripping, forward"
+102,FALL,21,19,0,0,2,"fall while walking, stumbling/tripping, forward, with recovery"
+103,FALL,24,23,0,0,1,"fall while walking, slipping, forward"
+104,FALL,22,20,0,0,2,"fall while walking, slipping, forward, with recovery"
+105,FALL,28,28,0,0,0,"fall while walking, slipping, forward, with rotation"
+106,FALL,18,17,0,0,1,"fall while walking, slipping, forward, with rotation and recovery"
+107,FALL,49,46,0,0,3,"fall while walking, slipping, backward"
+108,FALL,36,36,0,0,0,"fall while walking, slipping, backward, with recovery"
+109,FALL,27,27,0,0,0,"fall while walking, slipping, backward, with rotation"
+110,FALL,17,17,0,0,0,"fall while walking, slipping, backward, with rotation and recovery"
+111,FALL,10,9,0,0,1,"fall while walking, fainting/syncope (PDF says backward; .m script say"
+112,FALL,11,11,0,0,0,"fall while walking, fainting/syncope, backward"
+113,FALL,25,24,0,0,1,"fall while walking, fainting/syncope, lateral"
+114,FALL,20,20,0,0,0,"fall while walking, fainting/syncope, forward, hands on a table first"
+115,FALL,11,11,0,0,0,"fall attempting to sit/lie down, losing balance, forward"
+116,FALL,12,11,0,0,1,"fall attempting to sit/lie down, losing balance, forward, with recover"
+117,FALL,12,12,0,0,0,"fall attempting to sit/lie down, losing balance, backward"
+118,FALL,11,9,0,0,2,"fall attempting to sit/lie down, losing balance, backward, with recove"
+119,FALL,25,22,0,0,3,"fall attempting to sit/lie down, losing balance, lateral"
+120,FALL,19,17,0,0,2,"fall attempting to sit/lie down, losing balance, lateral, with recover"
+121,FALL,22,19,0,0,3,"fall while jogging, stumbling/tripping, forward"
+122,FALL,17,13,0,0,4,"fall while jogging, stumbling/tripping, forward, with recovery"
+123,FALL,24,21,0,0,3,"fall while jogging, slipping, forward"
+124,FALL,22,21,0,0,1,"fall while jogging, slipping, forward, with recovery"
+125,FALL,28,28,0,0,0,"fall while jogging, slipping, forward, with rotation"
+126,FALL,17,17,0,0,0,"fall while jogging, slipping, forward, with rotation and recovery"
+127,FALL,41,34,0,0,7,"fall from bed while lying, changing position/rotating, lateral"
+128,FALL,28,26,0,0,2,"fall from bed while lying, changing position/rotating, lateral, with r"
+129,FALL,12,11,0,0,1,"fall from chair, fainting/syncope, forward"
+130,FALL,11,10,0,0,1,"fall from chair, fainting/syncope, backward"
+131,FALL,23,21,0,0,2,"fall from chair, fainting/syncope, lateral"
+132,FALL,12,11,0,0,1,"fall from standing still, fainting/syncope, forward"
+133,FALL,12,12,0,0,0,"fall from standing still, fainting/syncope, backward"
+134,FALL,24,24,0,0,0,"fall from standing still, fainting/syncope, lateral"
+135,FALL,20,14,0,0,6,"fall from standing still, fainting/syncope, vertical, sliding down a w"

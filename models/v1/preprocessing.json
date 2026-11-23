@@ -1,0 +1,34 @@
+{
+  "raw_units": {
+    "acc_g_per_lsb": 0.000244,
+    "gyr_dps_per_lsb": 0.07,
+    "pressure": "hPa x 100 -> Pa",
+    "fs_imu_hz": 238.0,
+    "fs_baro_hz": 10.0
+  },
+  "imu": {
+    "resample": "scipy.signal.resample_poly (Kaiser anti-aliasing FIR) 238 Hz -> 60 Hz",
+    "odr_hz": 60
+  },
+  "pressure": {
+    "steps": [
+      "trailing median of 5 samples (0.5 s) at 10 Hz",
+      "2nd-order Butterworth low-pass 1 Hz (causal lfilter, initial state = first value)",
+      "linear interpolation onto the 60 Hz IMU time grid"
+    ]
+  },
+  "window": {
+    "length_s": 4,
+    "samples": 240,
+    "step_s": 0.5,
+    "decision_time": "window end"
+  },
+  "alerts": {
+    "merge_s": 10.0,
+    "note": "alerts less than 10 s apart = one event (used in evaluation)"
+  },
+  "code": {
+    "preprocess": "src/data/preprocess.py",
+    "features": "src/features/feats.py"
+  }
+}

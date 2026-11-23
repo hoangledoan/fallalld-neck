@@ -1,0 +1,15 @@
+fold,n_estimators,num_leaves,learning_rate,min_child_samples,class_weight
+1,300,7,0.1,20,False
+2,300,15,0.1,20,True
+3,500,31,0.1,50,True
+4,500,7,0.1,20,True
+5,500,7,0.1,50,False
+7,100,7,0.1,20,False
+8,150,7,0.1,50,False
+9,500,7,0.1,20,False
+10,150,7,0.1,50,False
+11,500,31,0.1,20,True
+12,500,7,0.1,50,True
+13,150,7,0.1,20,False
+14,300,7,0.1,20,False
+15,300,7,0.1,20,False

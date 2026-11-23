@@ -1,0 +1,11 @@
+# Python 3.11 (conda env "fallalld")
+numpy==1.26.4
+pandas==3.0.6
+scipy==1.17.1
+scikit-learn==1.9.1
+lightgbm==4.7.0
+matplotlib==3.11.2
+PyYAML==6.0.4
+tables==3.11.1
+# only for the CNN comparison (M2)
+tensorflow==2.15.1

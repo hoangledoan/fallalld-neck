@@ -1,0 +1,13 @@
+  M0 A 60Hz 4s: 3s
+  M1lgbm A 60Hz 4s: 116s
+  M1tree A 60Hz 4s: 17s
+  M0 A+B 60Hz 4s: 10s
+  M1lgbm A+B 60Hz 4s: 119s
+  M1tree A+B 60Hz 4s: 19s
+  M0 A+G 60Hz 4s: 3s
+  M1lgbm A+G 60Hz 4s: 112s
+  M1tree A+G 60Hz 4s: 23s
+  M0 A+G+B 60Hz 4s: 10s
+  M1lgbm A+G+B 60Hz 4s: 119s
+  M1tree A+G+B 60Hz 4s: 23s
+done in 586s

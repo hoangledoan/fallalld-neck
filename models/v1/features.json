@@ -1,0 +1,127 @@
+{
+  "sensors": "A+B",
+  "n_features": 20,
+  "features": [
+    {
+      "index": 0,
+      "name": "a_mean",
+      "group": "A",
+      "source_column_in_feats_features": 0
+    },
+    {
+      "index": 1,
+      "name": "a_std",
+      "group": "A",
+      "source_column_in_feats_features": 1
+    },
+    {
+      "index": 2,
+      "name": "a_min",
+      "group": "A",
+      "source_column_in_feats_features": 2
+    },
+    {
+      "index": 3,
+      "name": "a_max",
+      "group": "A",
+      "source_column_in_feats_features": 3
+    },
+    {
+      "index": 4,
+      "name": "a_ptp",
+      "group": "A",
+      "source_column_in_feats_features": 4
+    },
+    {
+      "index": 5,
+      "name": "a_energy",
+      "group": "A",
+      "source_column_in_feats_features": 5
+    },
+    {
+      "index": 6,
+      "name": "a_cross1g",
+      "group": "A",
+      "source_column_in_feats_features": 6
+    },
+    {
+      "index": 7,
+      "name": "a_npeaks2g",
+      "group": "A",
+      "source_column_in_feats_features": 7
+    },
+    {
+      "index": 8,
+      "name": "ph_pre_min",
+      "group": "A",
+      "source_column_in_feats_features": 8
+    },
+    {
+      "index": 9,
+      "name": "ph_impact_slope",
+      "group": "A",
+      "source_column_in_feats_features": 9
+    },
+    {
+      "index": 10,
+      "name": "ph_peak_pos",
+      "group": "A",
+      "source_column_in_feats_features": 10
+    },
+    {
+      "index": 11,
+      "name": "ph_post_std",
+      "group": "A",
+      "source_column_in_feats_features": 11
+    },
+    {
+      "index": 12,
+      "name": "ph_post_dev",
+      "group": "A",
+      "source_column_in_feats_features": 12
+    },
+    {
+      "index": 13,
+      "name": "ph_still_frac",
+      "group": "A",
+      "source_column_in_feats_features": 13
+    },
+    {
+      "index": 14,
+      "name": "ph_posture_deg",
+      "group": "A",
+      "source_column_in_feats_features": 14
+    },
+    {
+      "index": 15,
+      "name": "ph_posture_end_deg",
+      "group": "A",
+      "source_column_in_feats_features": 15
+    },
+    {
+      "index": 16,
+      "name": "p_dP",
+      "group": "B",
+      "source_column_in_feats_features": 23
+    },
+    {
+      "index": 17,
+      "name": "p_end_minus_start",
+      "group": "B",
+      "source_column_in_feats_features": 24
+    },
+    {
+      "index": 18,
+      "name": "p_slope",
+      "group": "B",
+      "source_column_in_feats_features": 25
+    },
+    {
+      "index": 19,
+      "name": "p_range",
+      "group": "B",
+      "source_column_in_feats_features": 26
+    }
+  ],
+  "note": "column order of the model input = order of this list; computed by src/features/feats.py:features() on a (N, 240, 7) window [ax ay az gx gy gz p]"
+}

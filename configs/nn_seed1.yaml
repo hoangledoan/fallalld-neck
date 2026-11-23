@@ -1,0 +1,8 @@
+# first CNN pass: one seed, A+B first (best M1 config), then A, then A+G+B
+trees: {odr: [60], window_s: [4], sensors: [], models: []}
+nn:
+  odr: [60]
+  window_s: [4]
+  sensors: ["A+B", "A", "A+G+B"]
+  models: ["M2"]
+  seeds: [20261123]

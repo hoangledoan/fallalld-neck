@@ -1,0 +1,24 @@
+  M1lgbm A+B 60Hz 4s: 207s
+  M1lgbm A+B 60Hz 4s: 211s
+  M1lgbm A+B 60Hz 4s: 212s
+variant   rule  sens  fa_per_h  n_fa
+slowLs4 sens98 0.978     1.294    12
+slowLs4 sens99 0.995     2.481    23
+slowLs6 sens98 0.971     0.971     9
+slowLs6 sens99 0.992     2.481    23
+slowLs8 sens98 0.975     1.079    10
+slowLs8 sens99 0.996     1.833    17
+ T_s m1_rule  n_falls  m1_missed  caught_by_longlie caught_ids  recall_m1  recall_or  longlie_alone_recall  fa_m1  extra_fa  hours  fa_per_h_m1  fa_per_h_or
+   5  sens98      733         13                  2    127,130      0.982      0.985                 0.536     14        78  9.272         1.51        9.922
+   8  sens98      733         13                  2    127,130      0.982      0.985                 0.505     14        26  9.272         1.51        4.314
+  10  sens98      733         13                  0                 0.982      0.982                 0.000     14         0  9.272         1.51        1.510
+ T  ActivityID  n  m1_det  ll_det  or_det
+ 5         127 41      39      29      40
+ 5         130 11      10       9      11
+ 5         135 20      12       2      12
+ 8         127 41      39      29      40
+ 8         130 11      10       9      11
+ 8         135 20      12       2      12
+10         127 41      39       0      39
+10         130 11      10       0      10
+10         135 20      12       0      12

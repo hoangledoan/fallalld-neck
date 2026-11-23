@@ -1,0 +1,29 @@
+2026-11-23 13:43:00.453277: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-11-23 13:43:00.453311: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-11-23 13:43:00.455244: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1795437815.512702 3394644 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+  M2 A+B fold S01: epochs=25 best val PR-AUC=0.934 [288s]
+  M2 A+B fold S02: epochs=25 best val PR-AUC=0.934 [566s]
+  M2 A+B fold S03: epochs=22 best val PR-AUC=0.822 [770s]
+Traceback (most recent call last):
+  File "/storage/user/lho/lho/test/fall_detection/fallalld_neck/run_all.py", line 70, in <module>
+    main()
+  File "/storage/user/lho/lho/test/fall_detection/fallalld_neck/run_all.py", line 58, in main
+    res.append(cnn.run(kind, sensors, odr, L, seed=seed, tag=tag or "nn",
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/user/lho/lho/test/fall_detection/fallalld_neck/src/models/cnn.py", line 170, in run
+    model, hist = train_fold(data, kind, sensors, train_s, val_s, seed,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/user/lho/lho/test/fall_detection/fallalld_neck/src/models/cnn.py", line 132, in train_fold
+    ap = average_precision_score(yv, _predict(model, xv))
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "/storage/user/lho/lho/test/fall_detection/fallalld_neck/src/models/cnn.py", line 103, in _predict
+    return model.predict(x, batch_size=1024, verbose=0).ravel()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stud/lho/miniconda3/envs/fallalld/lib/python3.11/site-packages/keras/src/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/stud/lho/miniconda3/envs/fallalld/lib/python3.11/site-packages/tensorflow/python/framework/constant_op.py", line 103, in convert_to_eager_tensor
+    return ops.EagerTensor(value, ctx.device_name, dtype)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tensorflow.python.framework.errors_impl.InternalError: Failed copying input tensor from /job:localhost/replica:0/task:0/device:CPU:0 to /job:localhost/replica:0/task:0/device:GPU:0 in order to run _EagerConst: Dst tensor is not initialized.

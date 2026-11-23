@@ -1,0 +1,7 @@
+fold S09: 502s, chosen: {'n_estimators': 500, 'num_leaves': 7, 'learning_rate': 0.1, 'min_child_samples': 20, 'class_weight': False}
+fold S10: 481s, chosen: {'n_estimators': 150, 'num_leaves': 7, 'learning_rate': 0.1, 'min_child_samples': 50, 'class_weight': False}
+fold S11: 449s, chosen: {'n_estimators': 500, 'num_leaves': 31, 'learning_rate': 0.1, 'min_child_samples': 20, 'class_weight': True}
+fold S12: 463s, chosen: {'n_estimators': 500, 'num_leaves': 7, 'learning_rate': 0.1, 'min_child_samples': 50, 'class_weight': True}
+fold S13: 448s, chosen: {'n_estimators': 150, 'num_leaves': 7, 'learning_rate': 0.1, 'min_child_samples': 20, 'class_weight': False}
+fold S14: 449s, chosen: {'n_estimators': 300, 'num_leaves': 7, 'learning_rate': 0.1, 'min_child_samples': 20, 'class_weight': False}
+fold S15: 373s, chosen: {'n_estimators': 300, 'num_leaves': 7, 'learning_rate': 0.1, 'min_child_samples': 20, 'class_weight': False}

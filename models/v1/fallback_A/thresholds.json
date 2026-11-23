@@ -1,0 +1,18 @@
+{
+  "rule": "alert when model probability >= threshold",
+  "chosen_on": "out-of-fold predictions, GroupKFold(4) by subject over all 14 subjects",
+  "recall98": {
+    "threshold": 0.13898303126512968,
+    "oof_recall": 0.9863574351978172,
+    "oof_fa_per_h": 9.059588363941398,
+    "oof_falls": 733,
+    "oof_hours": 9.271944444444447
+  },
+  "recall99": {
+    "threshold": 0.07593042102893542,
+    "oof_recall": 0.990450204638472,
+    "oof_fa_per_h": 11.324485454926748,
+    "oof_falls": 733,
+    "oof_hours": 9.271944444444447
+  }
+}

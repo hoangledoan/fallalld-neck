@@ -1,0 +1,9 @@
+  M1lgbm A+B 60Hz 2s: 105s
+  M1lgbm A+B 60Hz 3s: 69s
+  M1lgbm A+B 60Hz 4s: 65s
+  M1lgbm A+B 60Hz 6s: 60s
+  M1lgbm A+B 120Hz 2s: 70s
+  M1lgbm A+B 120Hz 3s: 72s
+  M1lgbm A+B 120Hz 4s: 64s
+  M1lgbm A+B 120Hz 6s: 57s
+done in 656s

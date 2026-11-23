@@ -1,0 +1,68 @@
+ActivityID,label,n,subjects,peak_g_med,clip_frac,p_range_pa_med,description
+13,ADL,171,14,1.4599299430847168,0.0,25.653206512404722,sitting down
+14,ADL,170,14,1.4249719381332397,0.0,25.168639514406095,standing up
+15,NEAR_FALL,43,14,3.911616802215576,0.0,24.588298433212913,fail to stand up from a sofa/chair (after half standing)
+16,ADL,84,14,1.7024088501930237,0.0,29.07435719559726,lying down on a bed
+17,ADL,86,14,1.5919387340545654,0.0,25.255855238043296,changing position (turning) in the bed
+18,ADL,86,14,1.6274659633636475,0.0,30.20989351614844,rising up from a bed
+19,ADL,60,13,1.659389853477478,0.0,28.38872937985434,start walking
+20,ADL,64,13,1.6676853895187378,0.0,31.30088936604443,walking slowly or in moderate speed
+21,ADL,65,13,1.6701747179031372,0.0,27.67500895241392,stop walking
+22,ADL,36,13,2.000332772731781,0.0,32.807255352257926,walking quickly
+23,NEAR_FALL,31,12,4.2053985595703125,0.0,39.91174936879543,stumbling while walking without falling
+24,ADL,30,11,4.377523183822632,0.0,37.54652725194319,jogging slowly
+25,ADL,30,12,5.631849527359009,0.0,45.321600427989324,jogging quickly
+26,ADL,54,14,3.6322072744369507,0.0,25.843221695904504,jumping slightly
+27,ADL,53,14,5.73110294342041,0.0,26.319788658511243,jumping strongly
+28,ADL,54,14,1.49607914686203,0.0,28.643053814848827,bending down (e.g. to pick something up from floor) and then raising up
+29,ADL,27,14,1.5811548233032227,0.0,39.23200508669834,start going upstairs
+30,ADL,27,14,1.5716553926467896,0.0,49.862700514597236,going upstairs
+31,ADL,27,14,1.5883820056915283,0.0,38.3295100536925,stop going upstairs
+32,ADL,27,14,1.8886197805404663,0.0,35.99122207741311,start going downstairs
+33,ADL,27,14,1.9601691961288452,0.0,55.39493279710587,going downstairs
+34,ADL,27,14,1.8807295560836792,0.0,38.72882668870443,stop going downstairs
+35,ADL,27,14,2.5319392681121826,0.0,70.19686576609092,going upstairs quickly
+36,ADL,25,13,3.6409120559692383,0.0,82.14736902659934,going downstairs quickly
+37,ADL,27,14,1.1310374736785889,0.0,117.98227019600745,start ascending using a lift
+38,ADL,27,14,1.3967721462249756,0.0,120.83579152339371,stop ascending using a lift
+39,ADL,27,14,1.183943271636963,0.0,111.86248677939875,start descending using a lift
+40,ADL,27,14,1.414421796798706,0.0,112.9875083342049,stop descending using a lift
+41,ADL,31,3,1.1984127759933472,0.0,35.551589307389804,standing in a moving bus/metro
+42,ADL,29,3,1.2174851894378662,0.0,44.48184349951043,sitting in a moving bus/metro
+43,ADL,31,13,4.382205486297607,0.0,34.193094759990345,start jogging
+44,ADL,29,12,4.685927391052246,0.0,32.147118240594864,stop jogging
+101,FALL,22,11,4.756248474121094,0.0,98.90322994344751,"fall while walking, stumbling/tripping, forward"
+102,FALL,21,11,4.911612510681152,0.0,100.45803937120945,"fall while walking, stumbling/tripping, forward, with recovery"
+103,FALL,24,12,4.955801010131836,0.0,96.5629068581984,"fall while walking, slipping, forward"
+104,FALL,22,12,4.581439018249512,0.0,142.98022525515262,"fall while walking, slipping, forward, with recovery"
+105,FALL,28,12,3.9496318101882935,0.0,83.95644476130838,"fall while walking, slipping, forward, with rotation"
+106,FALL,18,10,4.66641092300415,0.0,91.42462237375003,"fall while walking, slipping, forward, with rotation and recovery"
+107,FALL,49,12,4.368424415588379,0.0,79.46132924919948,"fall while walking, slipping, backward"
+108,FALL,36,10,3.937458634376526,0.0,85.66986899639596,"fall while walking, slipping, backward, with recovery"
+109,FALL,27,12,4.785999298095703,0.0,78.15543888320099,"fall while walking, slipping, backward, with rotation"
+110,FALL,17,10,3.576629161834717,0.0,100.3082841817959,"fall while walking, slipping, backward, with rotation and recovery"
+111,FALL,10,10,4.101307153701782,0.0,73.1823910762032,"fall while walking, fainting/syncope (PDF says backward; .m script says forward)"
+112,FALL,11,11,4.4033637046813965,0.0,78.16608334968623,"fall while walking, fainting/syncope, backward"
+113,FALL,25,12,4.1268134117126465,0.0,75.53991201370081,"fall while walking, fainting/syncope, lateral"
+114,FALL,20,12,4.650730133056641,0.0,100.43463660920679,"fall while walking, fainting/syncope, forward, hands on a table first"
+115,FALL,11,10,3.4543814659118652,0.0,85.8997212046088,"fall attempting to sit/lie down, losing balance, forward"
+116,FALL,12,11,3.318427085876465,0.0,82.25481482644682,"fall attempting to sit/lie down, losing balance, forward, with recovery"
+117,FALL,12,11,5.194928169250488,0.0,66.00253074790817,"fall attempting to sit/lie down, losing balance, backward"
+118,FALL,11,10,4.1678786277771,0.0,83.38615360381664,"fall attempting to sit/lie down, losing balance, backward, with recovery"
+119,FALL,25,12,5.142054557800293,0.0,71.7057646500034,"fall attempting to sit/lie down, losing balance, lateral"
+120,FALL,19,11,4.723481178283691,0.0,84.19444209810172,"fall attempting to sit/lie down, losing balance, lateral, with recovery"
+121,FALL,22,11,4.847702741622925,0.0,97.67941243214591,"fall while jogging, stumbling/tripping, forward"
+122,FALL,17,11,4.338747024536133,0.0,90.58867642200494,"fall while jogging, stumbling/tripping, forward, with recovery"
+123,FALL,24,12,4.436002254486084,0.0,103.02301558434556,"fall while jogging, slipping, forward"
+124,FALL,22,12,4.281893014907837,0.0,103.1195127416504,"fall while jogging, slipping, forward, with recovery"
+125,FALL,28,12,4.8971123695373535,0.0,87.89642557645129,"fall while jogging, slipping, forward, with rotation"
+126,FALL,17,10,4.116035461425781,0.0,90.9141557283001,"fall while jogging, slipping, forward, with rotation and recovery"
+127,FALL,41,12,4.459004878997803,0.0,58.49955543021497,"fall from bed while lying, changing position/rotating, lateral"
+128,FALL,28,12,5.641383647918701,0.0,63.0462546849958,"fall from bed while lying, changing position/rotating, lateral, with recovery"
+129,FALL,12,12,3.8465237617492676,0.0,75.31402952484495,"fall from chair, fainting/syncope, forward"
+130,FALL,11,11,5.164737224578857,0.0,69.05145898020419,"fall from chair, fainting/syncope, backward"
+131,FALL,23,12,4.328676700592041,0.0,67.13912609269028,"fall from chair, fainting/syncope, lateral"
+132,FALL,12,12,2.9628738164901733,0.0,65.93415460400138,"fall from standing still, fainting/syncope, forward"
+133,FALL,12,12,4.349689245223999,0.0,81.82913234739681,"fall from standing still, fainting/syncope, backward"
+134,FALL,24,12,4.385160207748413,0.0,88.70927645383927,"fall from standing still, fainting/syncope, lateral"
+135,FALL,20,11,3.894319772720337,0.0,79.92324232389365,"fall from standing still, fainting/syncope, vertical, sliding down a wall slowly"

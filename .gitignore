@@ -1,0 +1,5 @@
+# raw FallAllD data (extracted from the read-only zip) and rebuildable caches
+cache/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

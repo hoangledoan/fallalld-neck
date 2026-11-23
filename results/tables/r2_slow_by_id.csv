@@ -1,0 +1,25 @@
+rule,run,ActivityID,n,detected,missed
+sens98,base (r2),135,20,12,8
+sens98,base (r2),127,41,39,2
+sens98,base (r2),130,11,10,1
+sens98,slow Ls=4,135,20,12,8
+sens98,slow Ls=4,127,41,39,2
+sens98,slow Ls=4,130,11,10,1
+sens98,slow Ls=6,135,20,13,7
+sens98,slow Ls=6,127,41,39,2
+sens98,slow Ls=6,130,11,11,0
+sens98,slow Ls=8,135,20,14,6
+sens98,slow Ls=8,127,41,39,2
+sens98,slow Ls=8,130,11,10,1
+sens99,base (r2),135,20,16,4
+sens99,base (r2),127,41,41,0
+sens99,base (r2),130,11,11,0
+sens99,slow Ls=4,135,20,16,4
+sens99,slow Ls=4,127,41,41,0
+sens99,slow Ls=4,130,11,11,0
+sens99,slow Ls=6,135,20,16,4
+sens99,slow Ls=6,127,41,41,0
+sens99,slow Ls=6,130,11,11,0
+sens99,slow Ls=8,135,20,19,1
+sens99,slow Ls=8,127,41,41,0
+sens99,slow Ls=8,130,11,11,0

@@ -1,0 +1,13 @@
+# Lean first run (user, 2026-11-23): does a small model work on FallAllD neck data?
+# Full grid from the prompt (ODR {60,120} x window {2,3,4,6}, M3a-d, 3 seeds) can be enabled here.
+trees:
+  odr: [60]
+  window_s: [4]
+  sensors: ["A", "A+B", "A+G", "A+G+B"]
+  models: ["M0", "M1lgbm", "M1tree"]
+nn:
+  odr: [60]
+  window_s: [4]
+  sensors: ["A", "A+B", "A+G+B"]
+  models: ["M2"]
+  seeds: [20261123, 1, 2]

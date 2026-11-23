@@ -1,0 +1,20 @@
+2026-11-23 13:57:26.379155: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-11-23 13:57:26.379222: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-11-23 13:57:26.541029: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-11-23 13:57:39.436366: E external/local_xla/xla/stream_executor/cuda/cuda_driver.cc:274] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+  M2 A+B fold S01: loaded
+  M2 A+B fold S02: loaded
+  M2 A+B fold S03: loaded
+  M2 A+B fold S04: epochs=25 best val PR-AUC=0.848 [118s]
+  M2 A+B fold S05: epochs=28 best val PR-AUC=0.983 [242s]
+  M2 A+B fold S07: epochs=25 best val PR-AUC=0.990 [359s]
+  M2 A+B fold S08: epochs=30 best val PR-AUC=0.993 [510s]
+  M2 A+B fold S09: epochs=25 best val PR-AUC=0.788 [616s]
+  M2 A+B fold S10: epochs=32 best val PR-AUC=0.987 [739s]
+  M2 A+B fold S11: epochs=31 best val PR-AUC=0.716 [890s]
+  M2 A+B fold S12: epochs=21 best val PR-AUC=0.760 [979s]
+  M2 A+B fold S13: epochs=27 best val PR-AUC=0.935 [1102s]
+  M2 A+B fold S14: epochs=27 best val PR-AUC=0.981 [1202s]
+  M2 A+B fold S15: epochs=35 best val PR-AUC=0.980 [1365s]
+  M2 A fold S01: epochs=28 best val PR-AUC=0.905 [118s]
+  M2 A fold S02: epochs=35 best val PR-AUC=0.923 [256s]

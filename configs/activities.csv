@@ -1,0 +1,80 @@
+ActivityID,description,label,pre_fall_status,fall_reason,direction,rotation,recovery,other_conditions,short_label_ActivityID2Str_m
+1,start clapping hands,ADL,,,,,,,Start clap hands
+2,clapping hands,ADL,,,,,,,Clap hands
+3,stop clapping hands,ADL,,,,,,,Stop clap hands
+4,clap hands one time,ADL,,,,,,,Clap hands 1
+5,start waving hands,ADL,,,,,,,Start wave hands
+6,waving hands,ADL,,,,,,,wave hands
+7,stop waving hands,ADL,,,,,,,Stop wave hands
+8,raising hand up,ADL,,,,,,,Raising hand up
+9,moving hand down,ADL,,,,,,,Moving hand down
+10,moving hand up then down immediately,ADL,,,,,,,Move hand up -> down
+11,hand shaking,ADL,,,,,,,Hand shaking
+12,beating a table with your hand,ADL,,,,,,,Beating a table
+13,sitting down,ADL,,,,,,,Sitting down
+14,standing up,ADL,,,,,,,Standing up
+15,fail to stand up from a sofa/chair (after half standing),NEAR_FALL,,,,,,,Fail to stand up
+16,lying down on a bed,ADL,,,,,,,Lying down
+17,changing position (turning) in the bed,ADL,,,,,,,Turning while lying
+18,rising up from a bed,ADL,,,,,,,Rising up
+19,start walking,ADL,,,,,,,Start walking
+20,walking slowly or in moderate speed,ADL,,,,,,,Walking slowly
+21,stop walking,ADL,,,,,,,Stop walking
+22,walking quickly,ADL,,,,,,,Walking quickly
+23,stumbling while walking without falling,NEAR_FALL,,,,,,,Stumbling
+24,jogging slowly,ADL,,,,,,,Jogging slowly
+25,jogging quickly,ADL,,,,,,,Jogging quickly
+26,jumping slightly,ADL,,,,,,,Jumping slightly
+27,jumping strongly,ADL,,,,,,,Jumping strongly
+28,bending down (e.g. to pick something up from floor) and then raising up,ADL,,,,,,,Bending down
+29,start going upstairs,ADL,,,,,,,Start going upstairs
+30,going upstairs,ADL,,,,,,,Going upstairs
+31,stop going upstairs,ADL,,,,,,,Stop going upstairs
+32,start going downstairs,ADL,,,,,,,Start going downstairs
+33,going downstairs,ADL,,,,,,,Going downstairs
+34,stop going downstairs,ADL,,,,,,,Stop going downstairs
+35,going upstairs quickly,ADL,,,,,,,Upstairs quickly
+36,going downstairs quickly,ADL,,,,,,,Downstairs quickly
+37,start ascending using a lift,ADL,,,,,,,"Start ascending, lift"
+38,stop ascending using a lift,ADL,,,,,,,"Stop ascending, lift"
+39,start descending using a lift,ADL,,,,,,,"Start descending, lift"
+40,stop descending using a lift,ADL,,,,,,,"Stop descending, lift"
+41,standing in a moving bus/metro,ADL,,,,,,,"Standing, moving bus"
+42,sitting in a moving bus/metro,ADL,,,,,,,"Sitting, moving bus"
+43,start jogging,ADL,,,,,,,Start jogging
+44,stop jogging,ADL,,,,,,,Stop jogging
+101,"fall while walking, stumbling/tripping, forward",FALL,walking,stumbling/tripping,forward,no,no,,"Fall F, walking, trip"
+102,"fall while walking, stumbling/tripping, forward, with recovery",FALL,walking,stumbling/tripping,forward,no,yes,,"Fall F, walking, trip, rec."
+103,"fall while walking, slipping, forward",FALL,walking,slipping,forward,no,no,,"Fall F, walking, slip"
+104,"fall while walking, slipping, forward, with recovery",FALL,walking,slipping,forward,no,yes,,"Fall F, walking, slip, rec."
+105,"fall while walking, slipping, forward, with rotation",FALL,walking,slipping,forward,yes,no,,"Fall F, walking, slip, rot."
+106,"fall while walking, slipping, forward, with rotation and recovery",FALL,walking,slipping,forward,yes,yes,,"Fall F, walking, slip, rot., rec."
+107,"fall while walking, slipping, backward",FALL,walking,slipping,backward,no,no,,"Fall B, walking, slip"
+108,"fall while walking, slipping, backward, with recovery",FALL,walking,slipping,backward,no,yes,,"Fall B, walking, slip, rec."
+109,"fall while walking, slipping, backward, with rotation",FALL,walking,slipping,backward,yes,no,,"Fall B, walking, slip, rot."
+110,"fall while walking, slipping, backward, with rotation and recovery",FALL,walking,slipping,backward,yes,yes,,"Fall B, walking, slip rot., rec."
+111,"fall while walking, fainting/syncope (PDF says backward; .m script says forward)",FALL,walking,fainting/syncope,backward (PDF) / forward (script),no,no,,"Fall F, walking, syncope"
+112,"fall while walking, fainting/syncope, backward",FALL,walking,fainting/syncope,backward,no,no,,"Fall B, walking, syncope"
+113,"fall while walking, fainting/syncope, lateral",FALL,walking,fainting/syncope,lateral,no,no,,"Fall L, walking, syncope"
+114,"fall while walking, fainting/syncope, forward, hands on a table first",FALL,walking,fainting/syncope,forward,no,no,protection: putting hands on a table then falling down,"Fall, syncope, table"
+115,"fall attempting to sit/lie down, losing balance, forward",FALL,attempting to sit/lie down,losing balance,forward,no,no,,"Fall F, try sit"
+116,"fall attempting to sit/lie down, losing balance, forward, with recovery",FALL,attempting to sit/lie down,losing balance,forward,no,yes,,"Fall F, try sit, rec."
+117,"fall attempting to sit/lie down, losing balance, backward",FALL,attempting to sit/lie down,losing balance,backward,no,no,,"Fall B, try sit"
+118,"fall attempting to sit/lie down, losing balance, backward, with recovery",FALL,attempting to sit/lie down,losing balance,backward,no,yes,,"Fall B, try sit, rec."
+119,"fall attempting to sit/lie down, losing balance, lateral",FALL,attempting to sit/lie down,losing balance,lateral,no,no,,"Fall L, try sit"
+120,"fall attempting to sit/lie down, losing balance, lateral, with recovery",FALL,attempting to sit/lie down,losing balance,lateral,no,yes,,"Fall L, try sit, rec."
+121,"fall while jogging, stumbling/tripping, forward",FALL,jogging,stumbling/tripping,forward,no,no,,"Fall F, jog, trip"
+122,"fall while jogging, stumbling/tripping, forward, with recovery",FALL,jogging,stumbling/tripping,forward,no,yes,,"Fall F, jog, trip, rec."
+123,"fall while jogging, slipping, forward",FALL,jogging,slipping,forward,no,no,,"Fall F, jog, slip"
+124,"fall while jogging, slipping, forward, with recovery",FALL,jogging,slipping,forward,no,yes,,"Fall F, jog, slip, rev."
+125,"fall while jogging, slipping, forward, with rotation",FALL,jogging,slipping,forward,yes,no,,"Fall F, jog, slip, rot."
+126,"fall while jogging, slipping, forward, with rotation and recovery",FALL,jogging,slipping,forward,yes,yes,,"Fall F, jog, slip, rot., rec."
+127,"fall from bed while lying, changing position/rotating, lateral",FALL,lying in bed,changing position/rotating,lateral,no,no,,"Fall L, bed"
+128,"fall from bed while lying, changing position/rotating, lateral, with recovery",FALL,lying in bed,changing position/rotating,lateral,no,yes,,"Fall L, bed, rec."
+129,"fall from chair, fainting/syncope, forward",FALL,sitting on a chair,fainting/syncope,forward,no,no,,"Fall F, chair, syncope"
+130,"fall from chair, fainting/syncope, backward",FALL,sitting on a chair,fainting/syncope,backward,no,no,,"Fall B, chair, syncope"
+131,"fall from chair, fainting/syncope, lateral",FALL,sitting on a chair,fainting/syncope,lateral,no,no,,"Fall L, chair, syncope"
+132,"fall from standing still, fainting/syncope, forward",FALL,standing for a while,fainting/syncope,forward,no,no,,"Fall F, syncope"
+133,"fall from standing still, fainting/syncope, backward",FALL,standing for a while,fainting/syncope,backward,no,no,,"Fall B, syncope"
+134,"fall from standing still, fainting/syncope, lateral",FALL,standing for a while,fainting/syncope,lateral,no,no,,"Fall L, syncope"
+135,"fall from standing still, fainting/syncope, vertical, sliding down a wall slowly",FALL,standing for a while,fainting/syncope,vertical,no,no,protection: sliding down a wall slowly,"Fall, syncope, slide over a wall"
